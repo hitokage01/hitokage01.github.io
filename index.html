@@ -4,15 +4,48 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <meta name="description" content="小川智史のポートフォリオページです。主な作成物が確認できます。">
+    <title>小川智史のポートフォリオページ</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <div id="logo">
+        <img src="hitokage.png" alt="profile">
+        <h1>小川智史のポートフォリオ</h1>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <h2>自己紹介</h2>
+        <p>氏名（職業）：小川　智史（薬剤師）</p>
+        <p>東京都在住。赤坂の薬局で薬剤師をやっています。</p>
+        <p>仕事の幅を広げるべくプログラミングに挑戦しています。</p>
+        <p>私のポートフォリオは<a href="https://github.com/satoshiogawasatoshiogawa/">こちら</a>からご確認ください。</p>
+        <p>※GitHubのユーザページに移動します。</p>
+        <h2>主な作成物</h2>
+        <ul style="list-style:none;" id="portfolio">
+          <li><a href="#">メッセージボード</a></li>
+          <li><a href="#">Twitterクローン</a></li>
+          <li><a href="#">モノリスト</a></li>
+          <li><a href="#">薬局管理ツール</a></li>
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2016 satoshi ogawa.</p>
+      </footer>
+    </div>
   </body>
 </html>
